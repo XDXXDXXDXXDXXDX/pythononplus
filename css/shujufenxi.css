@@ -252,6 +252,19 @@ a:active {
     width: 650px;
 }
 
+.line1{
+    position: absolute;
+    width: 800px;
+    left: 10px;
+    top: 124px;
+}
+
+.line2 {
+    position: absolute;
+    width: 710px;
+    left: 66px;
+    top: 100px;
+}
 .exe-stro {
     width: 820px;
     height: 140px;
@@ -320,7 +333,10 @@ a:active {
 .on .txt2 {
     background-color: #79b0c9;
 }
-
+.stro .on .off1, .stro .on .off2 {
+    width:38px;
+    margin-left: 20px;
+}
 .guanjianci {
     display: block;
     width: 220px;
@@ -347,6 +363,7 @@ a:active {
     width: 380px;
     display: block;
     margin: 36px auto 0 auto;
+    display: none;
 }
 
 .us {
@@ -357,6 +374,9 @@ a:active {
     background-color: #fff;
     box-shadow: 0px 0px 10px 6px #d7dce1; ;
     -webkit-box-shadow: 0px 0px 10px 6px #d7dce1;    
+}
+.us:hover{
+    cursor: pointer;
 }
 .us1 {
     left: 50px;
@@ -384,8 +404,11 @@ a:active {
     width: 220px;
     position: absolute;
     bottom: 0px;
+    display: none;
 }
-
+.shwo-pur{
+    display: block;
+}
 .us-ico {
     position: absolute;
     top: 14px;
