@@ -34,7 +34,7 @@ function signOrError() {
     var e = "linzihui";
     var p = "727476"
     if(email == e && password == p) {
-        window.open("https://xdxxdxxdxxdxxdx.github.io/pythonon/inner.html","_blank");
+        window.open("https://xdxxdxxdxxdxxdx.github.io/pythononplus/inner.html","_blank");
     }else if(canClick == true) {
         canClick = false;
         document.getElementsByClassName("error")[0].style.display ="block";
