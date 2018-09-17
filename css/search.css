@@ -328,14 +328,21 @@ a:active {
     width: 128px;
     height: 128px;
     position: absolute;
-
+    overflow:hidden;
+    border-radius: 64px;
+    overflow: hidden;
 }
 
 .bubble-div .bubble {
     width: 128px;
     height: 128px;
-    border-radius: 64px;   
+    border-radius: 64px;  
+    /* overflow:hidden;  */
 }
+
+/* .bubble-bian{
+    position: absolute;
+} */
 
 .bubble-div .bubble-name {
     font-size: 15px;
@@ -489,13 +496,22 @@ a:active {
     width: 90px;
     margin-left: -45px;
 }
-
-.bubble-center {
-    position: absolute;
+.bubble27{
+    width: 216px;
+    height: 216px;
+    border-radius: 108px;   
+    overflow: hidden;
     top: 534px;;
     left: 794px;
+    position: absolute;
+}
+.bubble-center {
+    /* position: absolute;
+    top: 534px;;
+    left: 794px; */
     width: 216px;
     border-radius: 108px;
+    /* overflow: hidden; */
 }
 
 .bubble-div:hover .bubble, .bubble27:hover .bubble-center{
@@ -515,6 +531,8 @@ a:active {
 
 .bubble-div:hover, .bubble27 {
     cursor: pointer;
+    box-shadow: 0px 2px 14px;
+    -webkit-box-shadow: 0px 2px 14px; 
 }
 
 @keyframes bubble-scale {  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
