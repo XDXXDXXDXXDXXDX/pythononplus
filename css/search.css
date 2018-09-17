@@ -74,7 +74,7 @@ header {
     color: #000;
 }
 
-.user-img {
+.user-img1 {
     vertical-align: -12px; 
     width: 36px;       
 }
@@ -281,7 +281,7 @@ a:active {
 
 .userNum {
     font-size:18px;
-    vertical-align: -8px;      
+    vertical-align: 3px;      
 }
 
 .user-img {
